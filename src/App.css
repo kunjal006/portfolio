@@ -1,0 +1,39 @@
+.glass-nav{
+    background:rgba(10,10,15,.85);
+    backdrop-filter:blur(10px);
+    transition:.3s;
+    box-shadow:0 5px 25px rgba(0,0,0,.35);
+}
+
+.navbar{
+    padding:18px 0;
+    transition:.3s;
+}
+
+.navbar-brand{
+    font-size:1.5rem;
+}
+
+.nav-link{
+    color:#d9d9e3 !important;
+    margin-left:20px;
+    font-weight:500;
+    transition:.3s;
+}
+
+.nav-link:hover{
+    color:#4cc9f0 !important;
+}
+
+.navbar-toggler{
+    border:none;
+}
+
+.navbar-toggler:focus{
+    box-shadow:none;
+}
+
+footer{
+    padding:40px 0;
+    background:#111118;
+}
