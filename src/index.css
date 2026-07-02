@@ -30,9 +30,17 @@ img{
 }
 
 section{
-  padding:100px 0;
+  padding:70px 0;
 }
 
 .container{
   max-width:1200px;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  overflow-x:hidden;
 }

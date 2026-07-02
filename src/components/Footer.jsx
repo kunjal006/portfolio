@@ -1,9 +1,56 @@
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+
 function Footer() {
   return (
     <footer>
-      <div className="container text-center">
-        <p>© 2026 Kunjal Rajput. All Rights Reserved.</p>
+
+      <div className="container">
+
+        <h3 className="footer-name">
+          Kunjal Rajput
+        </h3>
+
+        <p className="footer-text">
+          Contact
+        </p>
+
+        <div className="footer-icons">
+
+          <a
+            href="https://github.com/kunjal006"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+          >
+            <FaGithub />
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/kunjal-rajput-189495270/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
+            <FaLinkedin />
+          </a>
+
+          <a
+            href="mailto:kunjalrajput06@gmail.com"
+            aria-label="Email"
+          >
+            <FaEnvelope />
+          </a>
+
+        </div>
+
+        <hr />
+
+        <p className="copyright">
+          © 2026 Kunjal Rajput. Built with React & Bootstrap.
+        </p>
+
       </div>
+
     </footer>
   );
 }
