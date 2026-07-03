@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Contact() {
   return (
@@ -15,8 +15,8 @@ function Contact() {
         </h2>
 
         <p className="contact-text">
-          I'm currently looking for Software Development internship opportunities.
-          If you'd like to collaborate or discuss a project, feel free to reach out.
+          I'm currently seeking Software Development internship opportunities.
+          Feel free to connect with me on GitHub or LinkedIn.
         </p>
 
         <div className="contact-links">
