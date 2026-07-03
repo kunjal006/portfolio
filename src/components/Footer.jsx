@@ -34,12 +34,6 @@ function Footer() {
             <FaLinkedin />
           </a>
 
-          <a
-            href="mailto:kunjalrajput06@gmail.com"
-            aria-label="Email"
-          >
-            <FaEnvelope />
-          </a>
 
         </div>
 
